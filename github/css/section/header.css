@@ -1,0 +1,87 @@
+/* HEADER */
+header {
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 5px rgba(0, 0, 0,.75);
+    background-color: #FFF;
+}
+header .inner {
+    height: 78px;
+}
+header .menu-group {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .logo {
+    margin-right: 10px;
+}
+header .logo a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../img/logo.svg);
+    text-indent: -9999px;
+}
+header .logo a:hover {
+    background-image: url(../../img/logo_on.svg);
+}
+header .main-menu {
+    display: flex;
+}
+header .main-menu li a{
+    display: block;
+    padding: 10px;
+    color : #3c4146
+}
+header .main-menu li a:hover {
+    color: #4078c5;
+}
+header .sign-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .btn-group {
+    order: 2;
+    display: flex;
+}
+header .btn-group .sign-in {
+    margin-right: 4px;
+}
+#search-form {
+    order: 1;
+    margin-right: 12px;
+}
+#search {
+    width: 160px;
+    font: 14px;
+}
+#search + [type="submit"] {
+    display: none;
+}
+header .sub-menu {
+    /* order: 0; default 0이라서 선언안해줘도 됨 */
+    display: flex;
+}
+header .sub-menu li a {
+    padding: 8px;
+    display: block;
+    font-size: 13px;
+    color: #3c4146;
+    margin-right: 10px;
+}
+header .sub-menu li a:hover {
+    color: #4078c0;
+}
+#toggle-btn {
+    display: none;
+    background-image: url('../../img/menu-toggle.svg');
+    width: 18px;
+    height: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}

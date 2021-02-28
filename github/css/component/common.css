@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.body__container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+
+/* SUMMARY */
+/* .summary {
+    
+} */
+.summary__title {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+.summary__description {
+    font-size: 26px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+}
+
+/* SECTION & INNER */
+.section {
+    position: relative;
+}
+.section .inner {
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
